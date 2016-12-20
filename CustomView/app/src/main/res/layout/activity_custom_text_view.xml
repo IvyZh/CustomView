@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_custom_text_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ivy.customview.CustomViewActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.ivy.customview.ui.CustomTextView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                app:CustomText="31452"
+                app:CustomTextColor="#ee00ff"
+                app:CustomTextSize="40sp" />
+
+
+            <com.ivy.customview.ui.CustomImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                app:imgSrc="@mipmap/ic_launcher"
+                app:imgScaleType="center"
+                app:CustomText="hello andorid !"
+                app:CustomTextColor="#ff0000"
+                app:CustomTextSize="30sp" />
+
+            <com.ivy.customview.ui.CustomImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                app:imgSrc="@mipmap/ic_launcher"
+                app:imgScaleType="center"
+                app:CustomText="helloworldwelcome"
+                app:CustomTextColor="#0ee0ff"
+                app:CustomTextSize="18sp" />
+
+            <com.ivy.customview.ui.CustomPopView
+                android:layout_width="200dp"
+                android:layout_height="100dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

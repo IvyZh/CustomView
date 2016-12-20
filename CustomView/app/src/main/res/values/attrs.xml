@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="CustomTextSize" format="dimension" />
+    <attr name="CustomTextColor" format="color" />
+    <attr name="CustomText" format="string" />
+    <declare-styleable name="CustomTextView">
+        <attr name="CustomTextSize" />
+        <attr name="CustomTextColor" />
+        <attr name="CustomText" />
+    </declare-styleable>
+
+    <attr name="imgSrc" format="reference" />
+    <attr name="imgScaleType" format="reference">
+        <enum name="fillXY" value="0" />
+        <enum name="center" value="1" />
+    </attr>
+
+
+    <declare-styleable name="CustomImageView">
+        <attr name="CustomTextSize" />
+        <attr name="CustomTextColor" />
+        <attr name="CustomText" />
+        <attr name="imgSrc" />
+        <attr name="imgScaleType" />
+    </declare-styleable>
+
+
+</resources>
